@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        img{
+            margin: 10px;
+        }
+        .image2{
+            /* position: absolute;
+            top: 100px;
+            left: 200px;*/
+
+        }
+        .container{
+            position: relative;
+        }
+        .image4{
+            position: fixed;
+        }
+        .image3{
+            position: sticky;
+        }
+        .box{
+            background-color: aquamarine;        
+        }
+    </style>
 </head>
 <body>
-    hello world, i m here
+    <div class="container">
+        <img src="tshirt.jpg" alt="poster" width="300px" height="300px" class="image1">
+        <img src="table lamp.jpeg" alt="poster" width="300px" height="300px" class="image2">
+        <img src="tshirt.jpg" alt="poster" width="300px" height="300px" class="image3">
+        <img src="table lamp.jpeg" alt="poster" width="300px" height="300px" class="image4">
+    </div>
+    <div class="box">
 
-    my name is ayush jha
-
+    </div>
 </body>
 </html>
